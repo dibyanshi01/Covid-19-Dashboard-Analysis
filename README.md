@@ -11,10 +11,10 @@ Install dash , Here is the command **pip install dash**
 
 For making attractive website we are going to use Bootstrap which is a free and open source CSS framework. For using Bootstrap in the Dash project we have a certain rule to use. First we make a empty list and inside that list we give all the description about the External Stylesheet in a curly bracket.
 
-# Dataset collected from link:
+# Dataset collected from link (CSV file) :
 https://github.com/CSSEGISandData/COVID-19
 
-# Field description
+# Field description (csv file)
 
 FIPS: US only. Federal Information Processing Standards code that uniquely identifies counties within the USA.
 
