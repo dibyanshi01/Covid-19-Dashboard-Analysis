@@ -1,0 +1,96 @@
+
+body{
+  background-color: #192444;
+  margin: 5%;
+}
+
+.card_container{
+  border-radius: 5px;
+  background-color: #1f2c56;
+  margin: 10px;
+  padding: 15px;
+  position: relative;
+  box-shadow: 2px 2px 2px #1f2c56;
+}
+
+.create_container{
+  border-radius: 5px;
+  background-color: #1f2c56;
+  margin: 18px;
+  padding: 15px;
+  position: relative;
+  box-shadow: 2px 2px 2px #1f2c56;
+}
+
+.create_container1{
+  border-radius: 5px;
+  background-color: #1f2c56;
+  margin: 10px;
+  padding: 15px;
+  position: relative;
+  box-shadow: 2px 2px 2px #1f2c56;
+}
+
+.dcc_compon{
+  margin: 0;
+  padding: 5px;
+  
+  font-weight: bold;
+}
+
+.fix_label{
+  font-size: 20px;
+  margin: 0;
+  padding: 10px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  width: calc(100% - 30px);
+}
+
+#header{
+  align-items: center;
+}
+
+.flex-display{
+  display: flex;
+}
+
+#mainContainer{
+  display: flex;
+  flex-direction: column;
+}
+
+#title{
+  text-align: center;
+}
+
+#title1{
+  text-align: center;
+}
+
+.Select-control, .Select-menu-outer, .Select-multi-value-wrapper, .select-up, .is-open .Select-control{
+  background-color: white;
+}
+
+.Select-control{
+  border: 0.5px solid green;
+}
+
+
+/* width */
+::-webkit-scrollbar{
+  width: 10px !important;
+  display: block !important;
+}
+
+/* Track */
+::-webkit-scrollbar-track{
+  background: white;
+  border-radius: 10px !important;
+  display: block !important;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb{
+  background: #192444;
+}
